@@ -1,0 +1,23 @@
+{
+    "name": "bontiv/dolibarr-saml",
+    "description": "SAML support for Dolibarr",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Bontiv",
+            "email": "bontiv@epitanime.com"
+        }
+    ],
+    "require": {
+        "onelogin/php-saml": "^3.1"
+    },
+    "config": {
+        "vendor-dir": "lib/",
+        "bin-dir": "scripts/"
+    },
+    "autoload": {
+        "files": [
+            "lib/saml_settings.php"
+        ]
+    }
+}
