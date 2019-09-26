@@ -20,7 +20,7 @@
  * \ingroup saml
  * \brief   CSS file for module SAML.
  */
-s
+
 //if (! defined('NOREQUIREUSER')) define('NOREQUIREUSER','1');	// Not disabled because need to load personalized language
 //if (! defined('NOREQUIREDB'))   define('NOREQUIREDB','1');	// Not disabled. Language code is found on url.
 if (! defined('NOREQUIRESOC'))    define('NOREQUIRESOC','1');
@@ -70,5 +70,3 @@ else header('Cache-Control: no-cache');
 .myclasscss {
 	/* ... */
 }
-
-
