@@ -64,9 +64,9 @@ if ($login->isAuthenticated()) {
     $admin->fetch('', 'admin');
 
     $res = $user->fetch('', $login->getNameId());
-    $user->firstname = $login->getAttribute('first_name')[0];
-    $user->lastname = $login->getAttribute('last_name')[0];
-    $user->admin = $login->getAttribute('type')[0] == 'ADMINISTRATOR' ? 1 : 0;
+    $user->firstname = $login->getAttribute('givenName')[0];
+    $user->lastname = $login->getAttribute('sn')[0];
+    $user->admin = in_array('ADMINISTRATOR', $login->getAttribute('type')) ? 1 : 0;
     $user->email = $login->getAttribute('mail')[0];
 
     if ($res <= 0) {
