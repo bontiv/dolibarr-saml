@@ -1,11 +1,11 @@
-= MYMODULE =
-:subtitle: MYMODULE SPECIFICATIONS
+= DOLIBARR SAML =
+:subtitle: DOLIBARR SAML SPECIFICATIONS
 
 
 
 == TOPIC OF DOCUMENT
 
-This document describe specifications of module MyModule
+This document describe specifications of module SAML for Dolibarr
 
 
 *Log of versions*

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# My Module documentation build configuration file, created by
+# Dolibarr SAML documentation build configuration file, created by
 # sphinx-quickstart on Mon Sep 26 17:54:17 2016.
 #
 # This file is execfile()d with the current directory set to its
